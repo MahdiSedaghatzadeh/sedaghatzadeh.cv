@@ -1,0 +1,58 @@
+@import url("./variables.css");
+@import url("./helper.css");
+@import url("./defaults.css");
+@import url("./header.css");
+@import url("./footer.css");
+
+/* =======================>>> START EXPERIENCES STYLES <<======================= */
+.experiences-section{
+    padding: 2.5rem 4rem;
+}
+
+.experience__title{
+    margin-bottom: 1.8rem;
+}
+
+.experiences-list__item{
+    margin-bottom: 3rem;
+}
+
+.experiences-list__item-header{
+    align-items: baseline;
+    padding-left: 3rem;
+    position: relative;
+    margin-bottom: 0.8rem;
+}
+
+.experiences-list__item-header::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 3px solid var(--white-color);
+    top: 3px;
+    left: -8px;
+}
+
+.experiences-list__item-title{
+    margin-right: 0.8rem;
+}
+
+.experiences-list__item-place{
+    color: var(--secondary-color);
+    margin-bottom: 0.8rem;
+}
+
+.experiences-list__item-content{
+    border-left: 1px solid var(--white-color);
+    padding: 2rem 0 2rem 2rem;
+}
+
+.experiences-list__item-date{
+    margin-bottom: 0.8rem;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+}
+
+/* =======================>>> START EXPERIENCES STYLES <<======================= */

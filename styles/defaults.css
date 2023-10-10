@@ -1,0 +1,66 @@
+/* =======================>>> START DEFAULT STYLES <<======================= */
+html {
+    box-sizing: border-box;
+    font-size: 52.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    background-color: var(--secondary-color);
+}
+
+button {
+    font-family: var(--primary-font);
+}
+
+input {
+    font-family: var(--primary-font);
+}
+
+select{
+    font-family: var(--primary-font);
+}
+
+*,
+*::after,
+*::before {
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    transition: all 400ms ease;
+    color: var(--primary-color);
+    opacity: 0.8;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+i {
+    user-select: none;
+}
+
+ul{
+    list-style: none;
+}
+
+::placeholder {
+    font-family: var(--primary-font);
+    color: var(--third-color);
+}
+
+input, textarea{
+    font-family: var(--primary-font)!important;
+}
+/* =======================>>> FINISH DEFAULT STYLES <<======================= */

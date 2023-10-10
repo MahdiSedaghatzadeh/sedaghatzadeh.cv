@@ -1,0 +1,30 @@
+/* =======================>>> START DEFAULT STYLES <<======================= */
+.d-flex{
+    display: flex;
+}
+
+.d-grid{
+    display: grid;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-block{
+    display: block;
+}
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.box-section{
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    background-color: var(--fourth-color);
+    padding: 1rem 2rem;
+}
+
+/* =======================>>> FINISH DEFAULT STYLES <<======================= */

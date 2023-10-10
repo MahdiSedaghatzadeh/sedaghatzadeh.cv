@@ -1,0 +1,53 @@
+/* =======================>>> START HEADER STYLES <<======================= */
+.header {
+    background-color: var(--fourth-color);
+    position: relative;
+}
+
+.header__content {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__bars-icon {
+    cursor: pointer;
+}
+
+.navbar-sm {
+    height: 0;
+    overflow: hidden;
+    transition: all ease 0.5s;
+    position: absolute;
+    z-index: 9;
+    background-color: var(--fourth-color);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(95%);
+    border-radius: 0 0 0.4rem 0.4rem;
+}
+
+
+.navbar-sm__list {
+    padding: 0.8rem;
+}
+
+.navbar-sm__list-item {
+    margin-bottom: 0.5rem;
+}
+
+.navbar-sm__list-item-link {
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+}
+
+.navbar-sm__list-item-link:hover {
+    color: var(--fourth-color);
+    background-color: var(--primary-color);
+}
+
+.navbar__list-item {
+    margin-left: 1.5rem;
+}
+
+/* =======================>>> FINISH HEADER STYLES <<======================= */
