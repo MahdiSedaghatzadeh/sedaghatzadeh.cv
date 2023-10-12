@@ -19,7 +19,7 @@
     transition: all ease 0.5s;
     position: absolute;
     z-index: 9;
-    background-color: var(--fourth-color);
+    background-color: var(--third-color);
     bottom: 0;
     left: 0;
     width: 100%;

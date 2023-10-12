@@ -8,7 +8,8 @@
 .banner {
     min-height: 450px;
     background-image: url("./../assets/images/bg-banner.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     border-radius: 0.4rem;
     margin-top: 1rem;
