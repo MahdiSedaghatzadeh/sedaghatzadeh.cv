@@ -65,4 +65,41 @@
     border-radius: 0.3rem;
 }
 
+/* =======================>>> FINISH CONTACT US STYLES <<======================= */
+
 /* =======================>>> START CONTACT US STYLES <<======================= */
+.references{
+    padding: 2.5rem 4rem;
+}
+
+.references__content{
+    flex-direction: column;
+}
+
+.references__item{
+    margin: 1.8rem 1.2rem;
+}
+
+.references-item__infos{
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.references-infos__image{
+    width: 80px;
+    border: 4px solid var(--third-color);
+    margin-right: 1.5rem;
+}
+
+.references-infos__name{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.references-infos__job{
+    font-size: 1.4rem;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+}
+
+/* =======================>>> FINISH CONTACT US STYLES <<======================= */

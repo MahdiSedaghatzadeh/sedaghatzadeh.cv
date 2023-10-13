@@ -5,26 +5,26 @@
 @import url("./footer.css");
 
 /* =======================>>> START EXPERIENCES STYLES <<======================= */
-.experiences-section{
+.experiences-section {
     padding: 2.5rem 4rem;
 }
 
-.experience__title{
+.experience__title {
     margin-bottom: 1.8rem;
 }
 
-.experiences-list__item{
+.experiences-list__item {
     margin-bottom: 3rem;
 }
 
-.experiences-list__item-header{
+.experiences-list__item-header {
     align-items: baseline;
     padding-left: 3rem;
     position: relative;
     margin-bottom: 0.8rem;
 }
 
-.experiences-list__item-header::before{
+.experiences-list__item-header::before {
     position: absolute;
     content: "";
     width: 20px;
@@ -35,31 +35,28 @@
     left: -8px;
 }
 
-.experiences-list__item-title{
+.experiences-list__item-title {
     margin-right: 0.8rem;
 }
 
-.experiences-list__item-place{
+.experiences-list__item-place {
     color: var(--secondary-color);
     margin-bottom: 0.8rem;
 }
 
-.experiences-list__item-content{
+.experiences-list__item-content {
     border-left: 1px solid var(--white-color);
     padding: 2rem 0 2rem 2rem;
 }
 
-.experiences-list__item-date{
+.experiences-list__item-date {
     margin-bottom: 0.8rem;
     font-family: var(--secondary-font);
     color: var(--secondary-color);
 }
 
 /* =======================>>> START PORTFOLIO STYLES <<======================= */
-.portfolio__contianer {
-
-}
-.portfolio__item{
+.portfolio__item {
     flex-direction: column;
 }
 
@@ -77,20 +74,17 @@
     font-size: 1.7rem;
     margin-bottom: 0.4rem;
 }
+
 .portfolio-slash {
     margin: 0 0.7rem;
     font-weight: bold;
 }
+
 .portfolio-content__title {
     font-size: 2.2rem;
     margin-bottom: 0.8rem;
 }
 
-.portfolio-content__descript {
-}
-
 /* =======================>>> FINISH PORTFOLIO STYLES <<======================= */
 
 /* =======================>>> FINISH EXPERIENCES STYLES <<======================= */
-
-

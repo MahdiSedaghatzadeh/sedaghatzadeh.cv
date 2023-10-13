@@ -54,6 +54,16 @@
     :is(.portfolio-item__image, .portfolio-item__content) {
         width: 50%;
     }
+
+    .references__item {
+        width: 45%;
+    }
+
+    .references__content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
 }
 
 @media only screen and (min-width: 992px) {
