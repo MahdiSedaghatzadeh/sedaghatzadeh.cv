@@ -55,4 +55,42 @@
     color: var(--secondary-color);
 }
 
-/* =======================>>> START EXPERIENCES STYLES <<======================= */
+/* =======================>>> START PORTFOLIO STYLES <<======================= */
+.portfolio__contianer {
+
+}
+.portfolio__item{
+    flex-direction: column;
+}
+
+.portfolio-item__image {
+    width: 100%;
+}
+
+.portfolio-item__content {
+    margin: 1.5rem 1rem 3.5rem;
+}
+
+.portfolio-content__tages {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    font-size: 1.7rem;
+    margin-bottom: 0.4rem;
+}
+.portfolio-slash {
+    margin: 0 0.7rem;
+    font-weight: bold;
+}
+.portfolio-content__title {
+    font-size: 2.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.portfolio-content__descript {
+}
+
+/* =======================>>> FINISH PORTFOLIO STYLES <<======================= */
+
+/* =======================>>> FINISH EXPERIENCES STYLES <<======================= */
+
+
