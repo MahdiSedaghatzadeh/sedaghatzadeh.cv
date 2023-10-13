@@ -23,8 +23,9 @@
 .box-section{
     margin-top: 1rem;
     border-radius: 0.4rem;
-    background-color: var(--fourth-color);
+    background-color: rgba(190, 190, 190, 0.1);
     padding: 1rem 2rem;
+    box-shadow: 0 0 5px 0 rgb(251, 242, 237, 0.4);
 }
 
 /* =======================>>> FINISH DEFAULT STYLES <<======================= */

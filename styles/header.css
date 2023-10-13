@@ -1,6 +1,5 @@
 /* =======================>>> START HEADER STYLES <<======================= */
 .header {
-    background-color: var(--fourth-color);
     position: relative;
 }
 
@@ -9,8 +8,14 @@
     align-items: center;
 }
 
+.header__title{
+    font-size: 2rem;
+    font-family: var(--secondary-font);
+}
+
 .header__bars-icon {
     cursor: pointer;
+    font-size: 2rem;
 }
 
 .navbar-sm {
