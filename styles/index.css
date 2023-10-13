@@ -130,24 +130,25 @@
 }
 
 .skill-item__value {
-    width: 80%;
+    width: 0;
     background-color: var(--third-color);
     color: var(--white-color);
     text-transform: uppercase;
     padding: 0.4rem;
     font-size: 1.4rem;
     border-radius: 0.2rem;
+    transition: all 2.5s ease;
 }
 
-.skill-expert {
+.active .skill-expert {
     width: 90%;
 }
 
-.skill-advance {
+.active .skill-advance {
     width: 60%;
 }
 
-.skill-beginner {
+.active .skill-beginner {
     width: 40%;
 }
 /* =======================>>> FINISH PROFESSIONAL SKILLS STYLES <<======================= */
